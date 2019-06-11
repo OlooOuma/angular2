@@ -3,7 +3,7 @@
     display: inline-block;
     padding: 2%;
     font-size: 20px;
-    /* font-family: 'Yesteryear', cursive; */
+    font-family: 'Yesteryear', cursive;
 }
 *{
     font-family: 'Black And White Picture', sans-serif;
@@ -26,11 +26,6 @@ form{
 .to-right p{
     margin: 0 5px;
 }
-/* .container{
-    background-image: url('https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940');
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 .some-card{
     display: flex;
     justify-content: space-around;
