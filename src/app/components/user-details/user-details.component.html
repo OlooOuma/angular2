@@ -1,5 +1,10 @@
 <div class="container">
   <div class="row">
+  <div class="col-md-12">
+    <div class="search-class">
+      <p id='users' class="btn btn-warning" (click)="searchUsers = true">Users</p>
+      <p id='repos' class="btn btn-info" (click)="searchUsers = false">Repos</p>
+  </div>
 
 <form>
   <div class="form-group">
@@ -36,12 +41,6 @@
   </div>
 </div>
 </div>
-<div class="col-md-12">
-  <div class="search-class">
-    <p id='users' class="btn btn-warning" (click)="searchUsers = true">Users</p>
-    <p id='repos' class="btn btn-info" (click)="searchUsers = false">Repos</p>
-  </div>
-  <!-- <p class="moringa"></p> -->
 </div>
 </div>
 
